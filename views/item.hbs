@@ -1,0 +1,7 @@
+<form action="/item/{{item.id}}" method="post">
+    <h1><input type="text" name="title" id="title" value="{{item.title}}"></h1>
+    <p>
+        <textarea name="body" id="body" cols="30" rows="10">{{item.body}}</textarea>
+    </p>
+    <input type="submit" value="Save">
+</form>
